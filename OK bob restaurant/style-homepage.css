@@ -47,7 +47,13 @@ body {
     border-bottom-color: white;
 }
 
-.navigationLinks a.main {
+.navigationLinks a.home {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+}
+
+.navigationLinks a.about-resto {
     color: white;
     border-bottom: 2px solid white;
     padding-bottom: 4px;
@@ -111,6 +117,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .food-row img {
@@ -120,18 +127,18 @@ body {
 }
 
 .food-1 {
-    right: 30%;
+    right: 23%;
 }
 
 .food-2 {
-    right: -1%;
+    right: 0%;;
 }
 
 .food-3 {
     left: -5%; top:14% ;
 }
 
-.section-2 {
+.section-2-HM {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -140,6 +147,7 @@ body {
     background-color: #1715B3;
     background-image: url(pattern.png);
     background-size: 2500px;
+    overflow: hidden;
 }
 
 .logo3 {
@@ -172,6 +180,261 @@ body {
     width: 950px;
     right: 60px;
     top: -130px;
+}
 
+dito kayo mag simula
+
+.about-us-BG {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 1110px;
+    background-color: #1715B3;
+    background-image:
+        radial-gradient(
+            ellipse at center,
+            rgba(0, 0, 0, 0) 40%,
+            rgba(0, 0, 0, 0.8) 100%),
+        url(pattern.png);
+
+    background-size: 100% 100%, 2500px;
+    background-attachment: fixed, scroll;
+    overflow: hidden;
+}
+
+.section1-aboutUS {
+    position: relative;
+}
+
+.chef1 {
+    position: relative;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 380px;
+    letter-spacing: -0.5px;
+    text-shadow: 5px 5px 5px #070707;
+
+    top: -320px;
+    left: 310px;
+}
+
+.name1{
+    position: relative;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 60px;
+    letter-spacing: -0.5px;
+     text-shadow: 3px 1px 5px #070707;
+
+    top: -707px;
+    left: 835px;
+}
+
+.mendez {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    height: 400px;
+}
+
+.fire1 {
+    position: absolute;
+    height: 150px;
+    top: 150px;
+    left: 1550px;
+}
+
+.tasteless {
+    position: absolute;
+    height: 50px;
+    top: 1000px;
+    left: 750px;
+}
+
+.chef2 {
+    position: relative;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 380px;
+    letter-spacing: -0.5px;
+    text-shadow: 5px 5px 5px #070707;
+
+    top: -940px;
+    left: 480px;
+}
+
+.name2 {
+    position: relative;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 60px;
+    letter-spacing: -0.5px;
+    text-shadow: 3px 1px 5px #070707;
+
+    top: -1328px;
+    left: 502px;
+}
+
+.gokioco {
+    position: absolute;
+    top: 530px;
+    left: 1250px;
+    height: 500px;
+}
+
+.fire2 {
+    position: absolute;
+    height: 150px;
+    top: 620px;
+    left: 180px;
+}
+
+.section2-aboutUS {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 2110px;
+    background-color: #1715B3;
+    background-image:
+        radial-gradient(
+            ellipse at center,
+            rgba(0, 0, 0, 0) 40%,
+            rgba(0, 0, 0, 0.8) 100%),
+        url(pattern.png);
+
+    background-size: 100% 100%, 2500px;
+    background-attachment: fixed, scroll; 
+    overflow: hidden;
+}
+
+.AU {
+    position: relative;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 70px;
+    margin-top: 150px;
+    margin-left: 1150px;
+}
+
+.AU-long {
+    position: relative;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
     
+    margin-left: 1150px;
+}
+
+.AU-img1 {
+    position: absolute;
+    width: 750px;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+
+.AU-img2 {
+    position: absolute;
+    width: 400px;
+    margin-top: 1000px;
+    margin-left: 900px;
+}
+
+.AU-img3 {
+    position: absolute;
+    width: 424px;
+    margin-top: 1000px;
+    margin-left: 1320px;
+}
+
+.AU-img4 {
+    position: absolute;
+    width: 500px;
+    margin-top: 1550px;
+    margin-left: 1250px;
+}
+
+.AU-img5 {
+    position: absolute;
+    width: 500px;
+    margin-top: 1550px;
+    margin-left: 725px;
+}
+
+.our-food {
+    position: relative;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 70px;
+    margin-top: 420px;
+    margin-left: 180px;
+}
+
+.of-long {
+    position: relative;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    
+    margin-left: 180px;
+}
+
+.bob-AU {
+    position: relative;
+    width: 700px;
+    margin-left: 10px;
+    margin-top: -90px;
+    transform: scaleX(-1);
+}
+
+.footer-bg {
+    height: 150px;
+    background: linear-gradient(to top, #e4e1e1 0%, #ffff 100%); 
+}
+
+.footer {
+    list-style: none;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 250px;
+}
+
+.footer a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #1715B3;
+}
+
+.footer li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer i{
+    font-size: 40px;
+}
+
+
+.footer span {
+    color: #1715B3;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    position: relative;
+    padding: 10px;
+}
+
+.logo-footer {
+    width: 80px;
+    display: flex;
+    position: relative;
+    margin-left: 900px;
+    margin-top: 20px;
+
 }
